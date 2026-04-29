@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codex GitHub Sample</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="panel" aria-labelledby="app-title">
+        <p class="eyebrow">Sample web app</p>
+        <h1 id="app-title">Codex GitHub Sample</h1>
+        <p class="intro">
+          A tiny static app created by Codex, ready to commit and publish to GitHub.
+        </p>
+
+        <div class="counter" aria-live="polite">
+          <span class="counter-label">Clicks</span>
+          <strong id="count">0</strong>
+        </div>
+
+        <div class="actions">
+          <button id="increment" type="button">Add one</button>
+          <button id="reset" class="secondary" type="button">Reset</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
